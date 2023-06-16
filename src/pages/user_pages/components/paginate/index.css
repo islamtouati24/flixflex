@@ -1,0 +1,33 @@
+.paginate:first-child li {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+.paginate li.disabled {
+  color: #6c757d !important;
+  pointer-events: none !important;
+}
+.paginate li {
+  padding: 0.375rem 0.75rem;
+}
+.paginate li {
+  position: relative;
+  display: block;
+  color: rgb(153 27 27 / var(--tw-bg-opacity));
+  text-decoration: none;
+}
+.paginate li.selected {
+  z-index: 3;
+  color: #fff;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+  border-color: rgb(153 27 27 / var(--tw-bg-opacity));
+}
+li:not(:first-child) {
+  margin-left: -1px;
+}
+#container {
+  margin: 1rem;
+}
+
+.items {
+  margin-bottom: 1rem;
+}
